@@ -1,0 +1,27 @@
+// styles/main.scss
+
+$primary-color: #3498db;
+$font-stack: 'Arial', sans-serif;
+
+body {
+  font-family: $font-stack;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+.button {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: $primary-color, 10%;
+  }
+}

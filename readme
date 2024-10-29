@@ -1,0 +1,7 @@
+# Compile SCSS to CSS
+
+cmd > sass styles/main.scss css/main.css
+
+# To watch for changes automatically, you can run:
+
+cmd > sass --watch styles/main.scss:css/main.css
